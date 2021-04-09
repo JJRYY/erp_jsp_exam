@@ -7,10 +7,10 @@ import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.sql.DataSource;
 
-public class JndiDS {
+public class JdbcUtil {
 	private static DataSource ds;
 	
-	private JndiDS() {}
+	private JdbcUtil() {}
 	
 	static { // 생성자 호출전 static 블럭 수행
 		try {

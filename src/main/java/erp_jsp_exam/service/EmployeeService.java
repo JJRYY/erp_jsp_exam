@@ -4,11 +4,11 @@ import java.sql.Connection;
 import java.util.List;
 
 import erp_jsp_exam.dao.impl.EmployeeDaoImpl;
-import erp_jsp_exam.ds.JndiDS;
+import erp_jsp_exam.ds.JdbcUtil;
 import erp_jsp_exam.dto.Employee;
 
 public class EmployeeService {
-	private Connection con = JndiDS.getConnection();
+	private Connection con = JdbcUtil.getConnection();
 	private EmployeeDaoImpl dao = EmployeeDaoImpl.getInstance();
 	
 	public EmployeeService() {

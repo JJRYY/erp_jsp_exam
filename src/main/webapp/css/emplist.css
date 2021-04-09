@@ -13,7 +13,7 @@ table {
 
 th {
 	border: 1px solid rgb(180, 180, 180);
-	border-top: 3px solid orange;
+	border-top: 3px solid red;
 	background-color: #eee;	
 	height: 50px;
 }
